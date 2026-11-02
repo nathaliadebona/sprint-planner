@@ -141,4 +141,36 @@ header {
     font-size: 1.25rem;
 }
 
+.btn-principal {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1.5rem;
+    border: 0.188rem solid var(--cor-texto);
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+    box-shadow: 0.313rem 0.313rem 0 var(--cor-texto);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn-principal:active {
+    box-shadow: 0 0 0 var(--cor-texto);
+    transform: translate(0.313rem, 0.313rem);
+}
+
+.link-secundario {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+    border-bottom: 0.188rem solid var(--cor-detalhes);
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
 
