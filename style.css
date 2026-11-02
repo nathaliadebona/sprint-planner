@@ -322,3 +322,22 @@ main section > h2 {
     font-weight: 800;
 }
 
+.card-beneficio:nth-child(1) {
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+}
+
+.card-beneficio:nth-child(1) i {
+    color: var(--cor-fundo);
+}
+
+.card-beneficio:nth-child(3) {
+    color: var(--cor-fundo);
+    background-color: var(--cor-texto);
+    box-shadow: 0.375rem 0.375rem 0 var(--cor-detalhes);
+}
+
+.card-beneficio:nth-child(3) i {
+    color: var(--cor-fundo);
+}
+
