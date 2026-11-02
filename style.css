@@ -1,0 +1,26 @@
+:root {
+    --cor-fundo: #FFF2C5;
+    --cor-texto: #1B3100;
+    --cor-detalhes: #8D3F7D;
+
+    --fonte-titulos: 'Bricolage Grotesque', sans-serif;
+    --fonte-corpo: 'Figtree', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-corpo);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-titulos);
+}
