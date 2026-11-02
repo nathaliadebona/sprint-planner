@@ -204,4 +204,24 @@ header {
     color: var(--cor-fundo);
 }
 
+.pagina-planner {
+    padding: 1rem;
+    border: 0.188rem solid var(--cor-texto);
+    border-radius: 0.875rem;
+    background-color: var(--cor-fundo);
+    transform: rotate(-2deg);
+}
+
+.pagina-planner h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.pagina-planner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    list-style: none;
+}
 
