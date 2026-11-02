@@ -1,5 +1,6 @@
 :root {
     --cor-fundo: #FFF2C5;
+    --cor-fundo-escuro: #F4E19A;
     --cor-texto: #1B3100;
     --cor-detalhes: #8D3F7D;
 
@@ -26,5 +27,77 @@ h1, h2, h3 {
 }
 
 header {
-    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 0.188rem solid var(--cor-texto);
 }
+
+.logo {
+    text-decoration: none;
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--cor-texto);
+}
+
+.btn-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 0.188rem solid var(--cor-texto);
+    border-radius: 0.625rem;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo-escuro);
+    box-shadow: 0.188rem 0.188rem 0 var(--cor-texto);
+    cursor: pointer;
+}
+
+.btn-menu i {
+    font-size: 1.1rem;
+}
+
+#menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    border-bottom: 0.188rem solid var(--cor-texto);
+    background-color: var(--cor-fundo-escuro);
+}
+
+#menu.aberto {
+    display: flex;
+}
+
+#menu a {
+    padding: 1rem 1.25rem;
+    border-bottom: 0.188rem solid var(--cor-texto);
+    font-family: var(--fonte-titulos);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+#menu .comprar-btn {
+    margin: 1.5rem;
+    padding: 0.875rem 1.5rem;
+    border: 0.188rem solid var(--cor-texto);
+    border-radius: 0.625rem;
+    font-family: var(--fonte-corpo);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+    box-shadow: 0.313rem 0.313rem 0 var(--cor-texto);
+}
+
