@@ -5,6 +5,7 @@ const menu = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {
     const abriu = menu.classList.toggle('aberto');
     menuBtn.setAttribute('aria-expanded', abriu);
+    menuBtn.setAttribute('aria-label', 'Fechar menu');
 });
 
 menuLinks.forEach((link) => {

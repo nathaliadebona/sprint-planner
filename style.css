@@ -54,12 +54,12 @@ header {
     color: var(--cor-texto);
     background-color: var(--cor-fundo-escuro);
     box-shadow: 0.188rem 0.188rem 0 var(--cor-texto);
+    transition: transform 0.1s, box-shadow 0.1s;
     cursor: pointer;
 }
 
 .btn-menu i {
     font-size: 1.1rem;
-    transition: transform 0.1s, box-shadow 0.1s;
 }
 
 .btn-menu:active {
@@ -111,6 +111,34 @@ header {
 #menu .comprar-btn:active {
     box-shadow: 0 0 0 var(--cor-texto);
     transform: translate(0.313rem, 0.313rem);
+}
+
+#hero {
+    padding: 2.5rem 1.25rem 3.5rem;
+}
+
+.etiqueta {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border: 0.125rem solid var(--cor-texto);
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: var(--cor-fundo-escuro);
+    transform: rotate(-3deg);
+}
+
+#hero h1 {
+    margin: 1rem 0 0.875rem;
+    line-height: 0.95;
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+}
+
+#hero p {
+    margin-bottom: 1.75rem;
+    font-size: 1.25rem;
 }
 
 
