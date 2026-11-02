@@ -59,6 +59,12 @@ header {
 
 .btn-menu i {
     font-size: 1.1rem;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn-menu:active {
+    box-shadow: 0 0 0 var(--cor-texto);
+    transform: translate(0.188rem, 0.188rem);
 }
 
 #menu {
@@ -99,5 +105,12 @@ header {
     color: var(--cor-fundo);
     background-color: var(--cor-detalhes);
     box-shadow: 0.313rem 0.313rem 0 var(--cor-texto);
+    transition: transform 0.1s, box-shadow 0.1s;
 }
+
+#menu .comprar-btn:active {
+    box-shadow: 0 0 0 var(--cor-texto);
+    transform: translate(0.313rem, 0.313rem);
+}
+
 
