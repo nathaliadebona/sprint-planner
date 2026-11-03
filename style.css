@@ -390,6 +390,10 @@ main section > h2 {
     background-color: var(--cor-fundo-escuro);
 }
 
+#galeria .etiqueta {
+    background-color: var(--cor-fundo);
+}
+
 .lista-galeria {
     display: flex;
     gap: 1.25rem;
