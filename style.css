@@ -430,3 +430,16 @@ main section > h2 {
 .item-galeria:nth-child(3) .pagina-planner {
     transform: rotate(-1deg);
 }
+
+.habito {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin-bottom: 0.875rem;
+}
+
+.habito-nome {
+    width: 4rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
