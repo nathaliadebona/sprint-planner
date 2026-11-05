@@ -452,3 +452,7 @@ main section > h2 {
     border: 0.188rem solid var(--cor-texto);
     border-radius: 50%;
 }
+
+.bolinha.feita {
+    background-color: var(--cor-detalhes);
+}
