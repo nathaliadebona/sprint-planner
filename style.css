@@ -676,3 +676,27 @@ footer .logo {
 footer p {
     font-size: 0.9375rem;
 }
+
+@media (min-width: 64rem) {
+    .btn-menu {
+        display: none;
+    }
+
+    #menu {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        border-bottom: none;
+        background-color: transparent;
+    }
+
+    #menu a {
+        padding: 0;
+        border-bottom: none;
+        font-family: var(--fonte-corpo);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
