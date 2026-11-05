@@ -486,3 +486,7 @@ main section > h2 {
 .barra.roxa {
     background-color: var(--cor-detalhes);
 }
+
+.dia-semana:nth-child(n+6) .dia-caixa {
+    background-color: var(--cor-fundo-escuro);
+}
