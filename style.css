@@ -699,4 +699,21 @@ footer p {
         font-size: 1rem;
         font-weight: 600;
     }
+
+    header {
+        padding-inline: max(1.5rem, calc((100% - 70rem) / 2));
+    }
+
+    main section {
+        padding-inline: max(1.5rem, calc((100% - 70rem) / 2));
+    }
+
+    footer {
+        padding-inline: max(1.5rem, calc((100% - 70rem) / 2));
+    }
+
+    #hero,
+    #cta {
+        padding-inline: max(1.5rem, calc((100% - 70rem) / 2));
+    }
 }
