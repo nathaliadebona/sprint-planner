@@ -612,3 +612,47 @@ main section > h2 {
     padding: 0 1.125rem 1rem;
 }
 
+#cta {
+    padding: 0 1.25rem 4rem;
+}
+
+.cta-info {
+    padding: 3rem 1.25rem;
+    border: 0.188rem solid var(--cor-texto);
+    border-radius: 1.5rem;
+    text-align: center;
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+    box-shadow: 0.5rem 0.5rem 0 var(--cor-texto);
+}
+
+.cta-info h2 {
+    margin-bottom: 0.875rem;
+    font-family: var(--fonte-titulos);
+    font-size: 3.25rem;
+    font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+}
+
+.cta-info p {
+    margin-bottom: 1.5rem;
+}
+
+.selo-preco {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.25rem 0.875rem;
+    border: 0.125rem solid var(--cor-texto);
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo-escuro);
+    transform: rotate(-2deg);
+}
+
+.cta-info .btn-principal {
+    margin-bottom: 0;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+}
