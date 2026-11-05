@@ -496,6 +496,8 @@ main section > h2 {
     grid-template-columns: 2.5rem 1fr;
     gap: 0.5rem 0.625rem;
     align-items: center;
+    font-size: 0.8125rem;
+    font-weight: 600;
 }
 
 .bloco-hora {
