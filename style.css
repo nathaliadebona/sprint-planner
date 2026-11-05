@@ -501,6 +501,7 @@ main section > h2 {
 .bloco-hora {
     height: 1.375rem;
     border-radius: 0.375rem;
+    background-color: var(--cor-texto);
 }
 
 .bloco-hora.roxo {
