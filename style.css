@@ -507,3 +507,8 @@ main section > h2 {
 .bloco-hora.roxo {
      background-color: var(--cor-detalhes);
 }
+
+.bloco-hora.vazio {
+    border: 0.125rem dashed var(--cor-texto);
+    background-color: transparent;
+}
