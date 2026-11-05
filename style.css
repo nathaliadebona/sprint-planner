@@ -716,4 +716,39 @@ footer p {
     #cta {
         padding-inline: max(1.5rem, calc((100% - 70rem) / 2));
     }
+
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.5rem;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: clamp(5rem, 10.5vw, 8.75rem);
+    }
+
+    #hero p {
+        max-width: 27.5rem;
+        font-size: 1.375rem;
+    }
+
+    #hero .btn-principal {
+        display: inline-block;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+        padding: 0.875rem 1.875rem;
+    }
+
+    #hero .link-secundario {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .bloco-card {
+        width: 100%;
+        max-width: 26.25rem;
+        margin-top: 0;
+        justify-self: center;
+    }
 }
