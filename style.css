@@ -514,3 +514,8 @@ main section > h2 {
     border: 0.125rem dashed var(--cor-texto);
     background-color: transparent;
 }
+
+#depoimentos {
+    background-color: var(--cor-detalhes);
+    color: var(--cor-fundo);
+}
