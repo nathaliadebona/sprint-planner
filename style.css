@@ -596,6 +596,18 @@ main section > h2 {
     cursor: pointer;
 }
 
+.faq-item summary::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: var(--cor-detalhes);
+    transition: transform 0.2s;
+}
+
+.faq-item[open] summary::after {
+    transform: rotate(180deg);
+}
+
 .faq-item p {
     padding: 0 1.125rem 1rem;
 }
