@@ -751,4 +751,28 @@ footer p {
         margin-top: 0;
         justify-self: center;
     }
+
+    main section > h2 {
+        max-width: 40rem;
+        margin: 1rem 0 3rem;
+        font-size: clamp(2.25rem, 5vw, 3.75rem);
+    }
+
+    .lista-beneficios {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.75rem;
+    }
+
+    #como-funciona ol {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
+
+    .lista-depoimentos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
 }
