@@ -482,3 +482,7 @@ main section > h2 {
     border-radius: 0.25rem;
     background-color: var(--cor-texto);
 }
+
+.barra.roxa {
+    background-color: var(--cor-detalhes);
+}
