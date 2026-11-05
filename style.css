@@ -490,3 +490,10 @@ main section > h2 {
 .dia-semana:nth-child(n+6) .dia-caixa {
     background-color: var(--cor-fundo-escuro);
 }
+
+.agenda {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    gap: 0.5rem 0.625rem;
+    align-items: center;
+}
