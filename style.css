@@ -823,4 +823,24 @@ footer p {
     #cta {
         padding-bottom: 6rem;
     }
+
+    footer {
+        text-align: left;
+    }
+
+    .rodape-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer .logo {
+        margin-bottom: 0;
+    }
+
+    footer p {
+        max-width: 32.5rem;
+    }
 }
