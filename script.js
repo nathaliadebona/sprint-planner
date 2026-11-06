@@ -5,12 +5,13 @@ const menu = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {
     const abriu = menu.classList.toggle('aberto');
     menuBtn.setAttribute('aria-expanded', abriu);
-    menuBtn.setAttribute('aria-label', 'Fechar menu');
+    menuBtn.setAttribute('aria-label', abriu ? 'Fechar menu' : 'Abrir menu');
 });
 
 menuLinks.forEach((link) => {
     link.addEventListener('click', () => {
         menu.classList.remove('aberto');
         menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.setAttribute('aria-label', 'Abrir menu');
     });
 });
