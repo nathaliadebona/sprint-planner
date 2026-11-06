@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fonte-corpo);
     font-size: 1.125rem;
@@ -288,12 +292,6 @@ main section > h2 {
     }
     to {
         transform: translateX(-50%);
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .faixa-conteudo {
-        animation: none;
     }
 }
 
@@ -687,6 +685,7 @@ footer p {
         display: flex;
         flex-direction: row;
         align-items: center;
+        white-space: nowrap;
         gap: 1.5rem;
         border-bottom: none;
         background-color: transparent;
@@ -842,5 +841,15 @@ footer p {
 
     footer p {
         max-width: 32.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .faixa-conteudo {
+        animation: none;
     }
 }
